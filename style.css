@@ -1,0 +1,48 @@
+html {
+    display: block;
+    background-color: beige;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nutrition-facts {
+    width: fit-content;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: white;
+}
+
+div#results {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 5px;
+    background: white;
+}
+
+form#user-form {
+    padding-bottom: 25px;
+}
+
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div#user-data {
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+}
