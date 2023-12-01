@@ -8,20 +8,22 @@
     <title>Nutrion App</title>
 </head>
 <body>
-    <div id="header">
-        <h1>Nutrition Tracker</h1>
-    </div>
-    <div id="data-form">
-        <div id="user-data">User Data
-            <button type="button" id="user-update">Add</button>
-            <div id="nutrition-data"></div>
+    <div class="container">
+        <div id="header">
+            <h1>Simple Nutrition Tracker</h1>
         </div>
+        <div id="data-form">
+            <form id="user-form">
+                <input type="text" name="search">
+                <button type="submit" id="submit">Search</button>
+            </form>
+            <div id="user-data">Daily Intake
+                <button type="button" id="user-update">Add</button>
+                <div id="nutrition-data"></div>
+            </div>
+        </div>
+        <div id="results"></div>
     </div>
-    <form id="user-form">
-        <input type="text" name="search">
-        <button type="submit" id="submit">Search</button>
-    </form>
-    <div id="results"></div>
     <script src="app.js"></script>
 </body>
 </html>
